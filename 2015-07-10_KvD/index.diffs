@@ -1,0 +1,1828 @@
+(((Mount
+   ((time 1437742183)
+    (os
+     (Linux
+      ((node pc1177) (release 3.13.0-29-generic)
+       (version "#53-Ubuntu SMP Wed Jun 4 21:00:20 UTC 2014")
+       (machine x86_64)
+       (all
+        "Linux pc1177 3.13.0-29-generic #53-Ubuntu SMP Wed Jun 4 21:00:20 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux"))))
+    (fs (Ext4_loop (Version "mke2fs 1.42.9 (4-Feb-2014)")))
+    (libc
+     (System
+      "GNU C Library (GNU libc) stable release version 2.21, by Roland McGrath et al."))
+    (fs_test_version /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+  ((config
+    (Mount
+     ((time 1437742183)
+      (os
+       (Linux
+        ((node pc1177) (release 3.13.0-29-generic)
+         (version "#53-Ubuntu SMP Wed Jun 4 21:00:20 UTC 2014")
+         (machine x86_64)
+         (all
+          "Linux pc1177 3.13.0-29-generic #53-Ubuntu SMP Wed Jun 4 21:00:20 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux"))))
+      (fs (Ext4_loop (Version "mke2fs 1.42.9 (4-Feb-2014)")))
+      (libc
+       (System
+        "GNU C Library (GNU libc) stable release version 2.21, by Roland McGrath et al."))
+      (fs_test_version /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))))
+   (path ext4_loop)
+   (test
+    ((mkdir
+      ((mkdir___mkdir_nonempty_dir1__d2_____0777-int.trace
+        ((suite mkdir)
+         (script mkdir___mkdir_nonempty_dir1__d2_____0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2_____0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2_____0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2_____0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2_____0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase mkdir___mkdir_nonempty_dir1__d2_____0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout
+                 exec_mkdir___mkdir_nonempty_dir1__d2_____0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir1__d2_____0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonempty_dir1__d2__sl_no_such_target__nonexist_6_____0777-int.trace
+        ((suite mkdir)
+         (script
+          mkdir___mkdir_nonempty_dir1__d2__sl_no_such_target__nonexist_6_____0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_no_such_target__nonexist_6_____0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_no_such_target__nonexist_6_____0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_no_such_target__nonexist_6_____0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_no_such_target__nonexist_6_____0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase
+               mkdir___mkdir_nonempty_dir1__d2__sl_no_such_target__nonexist_6_____0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout
+                 exec_mkdir___mkdir_nonempty_dir1__d2__sl_no_such_target__nonexist_6_____0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir1__d2__sl_no_such_target__nonexist_6_____0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonempty_dir2__f2.txt_____0777-int.trace
+        ((suite mkdir)
+         (script mkdir___mkdir_nonempty_dir2__f2.txt_____0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir2__f2.txt_____0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir2__f2.txt_____0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir2__f2.txt_____0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir2__f2.txt_____0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase
+               mkdir___mkdir_nonempty_dir2__f2.txt_____0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout
+                 exec_mkdir___mkdir_nonempty_dir2__f2.txt_____0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir2__f2.txt_____0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonempty_dir1__d2__sl_no_such_target___0777-int.trace
+        ((suite mkdir)
+         (script
+          mkdir___mkdir_nonempty_dir1__d2__sl_no_such_target___0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_no_such_target___0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_no_such_target___0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_no_such_target___0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_no_such_target___0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase
+               mkdir___mkdir_nonempty_dir1__d2__sl_no_such_target___0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout
+                 exec_mkdir___mkdir_nonempty_dir1__d2__sl_no_such_target___0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir1__d2__sl_no_such_target___0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonexist_dir__nonexist_3_____0777-int.trace
+        ((suite mkdir)
+         (script mkdir___mkdir_nonexist_dir__nonexist_3_____0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonexist_dir__nonexist_3_____0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonexist_dir__nonexist_3_____0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonexist_dir__nonexist_3_____0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonexist_dir__nonexist_3_____0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase
+               mkdir___mkdir_nonexist_dir__nonexist_3_____0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout
+                 exec_mkdir___mkdir_nonexist_dir__nonexist_3_____0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonexist_dir__nonexist_3_____0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonempty_dir2__d2__sl_f3.txt_____0777-int.trace
+        ((suite mkdir)
+         (script
+          mkdir___mkdir_nonempty_dir2__d2__sl_f3.txt_____0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir2__d2__sl_f3.txt_____0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir2__d2__sl_f3.txt_____0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir2__d2__sl_f3.txt_____0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir2__d2__sl_f3.txt_____0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase
+               mkdir___mkdir_nonempty_dir2__d2__sl_f3.txt_____0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout
+                 exec_mkdir___mkdir_nonempty_dir2__d2__sl_f3.txt_____0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir2__d2__sl_f3.txt_____0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonempty_dir1__d2__f3.txt_____0777-int.trace
+        ((suite mkdir)
+         (script mkdir___mkdir_nonempty_dir1__d2__f3.txt_____0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__f3.txt_____0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__f3.txt_____0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__f3.txt_____0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__f3.txt_____0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase
+               mkdir___mkdir_nonempty_dir1__d2__f3.txt_____0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout
+                 exec_mkdir___mkdir_nonempty_dir1__d2__f3.txt_____0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir1__d2__f3.txt_____0777-int.trace.err))))))))))
+       (mkdir___mkdir_empty_dir1_____0777-int.trace
+        ((suite mkdir) (script mkdir___mkdir_empty_dir1_____0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_empty_dir1_____0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_empty_dir1_____0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_empty_dir1_____0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_empty_dir1_____0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase mkdir___mkdir_empty_dir1_____0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout exec_mkdir___mkdir_empty_dir1_____0777-int.trace)
+                (stderr exec_mkdir___mkdir_empty_dir1_____0777-int.trace.err))))))))))
+       (mkdir___mkdir_empty_dir1___0777-int.trace
+        ((suite mkdir) (script mkdir___mkdir_empty_dir1___0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_empty_dir1___0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_empty_dir1___0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_empty_dir1___0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_empty_dir1___0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase mkdir___mkdir_empty_dir1___0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout exec_mkdir___mkdir_empty_dir1___0777-int.trace)
+                (stderr exec_mkdir___mkdir_empty_dir1___0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonempty_dir2___0777-int.trace
+        ((suite mkdir) (script mkdir___mkdir_nonempty_dir2___0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir2___0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir2___0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir2___0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir2___0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase mkdir___mkdir_nonempty_dir2___0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout exec_mkdir___mkdir_nonempty_dir2___0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir2___0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonexist_1_____0777-int.trace
+        ((suite mkdir) (script mkdir___mkdir_nonexist_1_____0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonexist_1_____0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonexist_1_____0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonexist_1_____0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonexist_1_____0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase mkdir___mkdir_nonexist_1_____0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout exec_mkdir___mkdir_nonexist_1_____0777-int.trace)
+                (stderr exec_mkdir___mkdir_nonexist_1_____0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_no_such_target_____0777-int.trace
+        ((suite mkdir)
+         (script
+          mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_no_such_target_____0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_no_such_target_____0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_no_such_target_____0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_no_such_target_____0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_no_such_target_____0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase
+               mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_no_such_target_____0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout
+                 exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_no_such_target_____0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_no_such_target_____0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonexist_1___0777-int.trace
+        ((suite mkdir) (script mkdir___mkdir_nonexist_1___0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonexist_1___0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonexist_1___0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonexist_1___0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonexist_1___0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase mkdir___mkdir_nonexist_1___0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout exec_mkdir___mkdir_nonexist_1___0777-int.trace)
+                (stderr exec_mkdir___mkdir_nonexist_1___0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonempty_dir1__d2__d3___0777-int.trace
+        ((suite mkdir)
+         (script mkdir___mkdir_nonempty_dir1__d2__d3___0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__d3___0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__d3___0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__d3___0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__d3___0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase
+               mkdir___mkdir_nonempty_dir1__d2__d3___0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout
+                 exec_mkdir___mkdir_nonempty_dir1__d2__d3___0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir1__d2__d3___0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonempty_dir1__d2__sl_no_such_target_____0777-int.trace
+        ((suite mkdir)
+         (script
+          mkdir___mkdir_nonempty_dir1__d2__sl_no_such_target_____0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_no_such_target_____0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_no_such_target_____0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_no_such_target_____0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_no_such_target_____0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase
+               mkdir___mkdir_nonempty_dir1__d2__sl_no_such_target_____0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout
+                 exec_mkdir___mkdir_nonempty_dir1__d2__sl_no_such_target_____0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir1__d2__sl_no_such_target_____0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonempty_dir1_____0777-int.trace
+        ((suite mkdir)
+         (script mkdir___mkdir_nonempty_dir1_____0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1_____0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1_____0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1_____0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1_____0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase mkdir___mkdir_nonempty_dir1_____0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout exec_mkdir___mkdir_nonempty_dir1_____0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir1_____0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonexist_2_____0777-int.trace
+        ((suite mkdir) (script mkdir___mkdir_nonexist_2_____0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonexist_2_____0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonexist_2_____0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonexist_2_____0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonexist_2_____0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase mkdir___mkdir_nonexist_2_____0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout exec_mkdir___mkdir_nonexist_2_____0777-int.trace)
+                (stderr exec_mkdir___mkdir_nonexist_2_____0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonempty_dir1__d2__f3.txt___0777-int.trace
+        ((suite mkdir)
+         (script mkdir___mkdir_nonempty_dir1__d2__f3.txt___0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__f3.txt___0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__f3.txt___0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__f3.txt___0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__f3.txt___0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase
+               mkdir___mkdir_nonempty_dir1__d2__f3.txt___0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout
+                 exec_mkdir___mkdir_nonempty_dir1__d2__f3.txt___0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir1__d2__f3.txt___0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonempty_dir1__d2__d3_____0777-int.trace
+        ((suite mkdir)
+         (script mkdir___mkdir_nonempty_dir1__d2__d3_____0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__d3_____0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__d3_____0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__d3_____0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__d3_____0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase
+               mkdir___mkdir_nonempty_dir1__d2__d3_____0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout
+                 exec_mkdir___mkdir_nonempty_dir1__d2__d3_____0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir1__d2__d3_____0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonempty_dir1__nonexist_4_____0777-int.trace
+        ((suite mkdir)
+         (script mkdir___mkdir_nonempty_dir1__nonexist_4_____0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__nonexist_4_____0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__nonexist_4_____0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__nonexist_4_____0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__nonexist_4_____0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase
+               mkdir___mkdir_nonempty_dir1__nonexist_4_____0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout
+                 exec_mkdir___mkdir_nonempty_dir1__nonexist_4_____0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir1__nonexist_4_____0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonempty_dir1__sl_f1.txt_____0777-int.trace
+        ((suite mkdir)
+         (script mkdir___mkdir_nonempty_dir1__sl_f1.txt_____0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__sl_f1.txt_____0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__sl_f1.txt_____0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__sl_f1.txt_____0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__sl_f1.txt_____0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase
+               mkdir___mkdir_nonempty_dir1__sl_f1.txt_____0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout
+                 exec_mkdir___mkdir_nonempty_dir1__sl_f1.txt_____0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir1__sl_f1.txt_____0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonempty_dir1__nonexist_4___0777-int.trace
+        ((suite mkdir)
+         (script mkdir___mkdir_nonempty_dir1__nonexist_4___0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__nonexist_4___0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__nonexist_4___0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__nonexist_4___0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__nonexist_4___0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase
+               mkdir___mkdir_nonempty_dir1__nonexist_4___0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout
+                 exec_mkdir___mkdir_nonempty_dir1__nonexist_4___0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir1__nonexist_4___0777-int.trace.err))))))))))
+       (mkdir___mkdir_empty_dir2___0777-int.trace
+        ((suite mkdir) (script mkdir___mkdir_empty_dir2___0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_empty_dir2___0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_empty_dir2___0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_empty_dir2___0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_empty_dir2___0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase mkdir___mkdir_empty_dir2___0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout exec_mkdir___mkdir_empty_dir2___0777-int.trace)
+                (stderr exec_mkdir___mkdir_empty_dir2___0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_no_such_target__nonexist_6_____0777-int.trace
+        ((suite mkdir)
+         (script
+          mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_no_such_target__nonexist_6_____0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_no_such_target__nonexist_6_____0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_no_such_target__nonexist_6_____0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_no_such_target__nonexist_6_____0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_no_such_target__nonexist_6_____0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase
+               mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_no_such_target__nonexist_6_____0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout
+                 exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_no_such_target__nonexist_6_____0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_no_such_target__nonexist_6_____0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonempty_dir2__d2__d3___0777-int.trace
+        ((suite mkdir)
+         (script mkdir___mkdir_nonempty_dir2__d2__d3___0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir2__d2__d3___0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir2__d2__d3___0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir2__d2__d3___0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir2__d2__d3___0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase
+               mkdir___mkdir_nonempty_dir2__d2__d3___0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout
+                 exec_mkdir___mkdir_nonempty_dir2__d2__d3___0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir2__d2__d3___0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonempty_dir2__d2__d3_____0777-int.trace
+        ((suite mkdir)
+         (script mkdir___mkdir_nonempty_dir2__d2__d3_____0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir2__d2__d3_____0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir2__d2__d3_____0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir2__d2__d3_____0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir2__d2__d3_____0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase
+               mkdir___mkdir_nonempty_dir2__d2__d3_____0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout
+                 exec_mkdir___mkdir_nonempty_dir2__d2__d3_____0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir2__d2__d3_____0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_no_such_target__nonexist_6___0777-int.trace
+        ((suite mkdir)
+         (script
+          mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_no_such_target__nonexist_6___0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_no_such_target__nonexist_6___0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_no_such_target__nonexist_6___0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_no_such_target__nonexist_6___0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_no_such_target__nonexist_6___0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase
+               mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_no_such_target__nonexist_6___0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout
+                 exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_no_such_target__nonexist_6___0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_no_such_target__nonexist_6___0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonempty_dir2__f1.txt___0777-int.trace
+        ((suite mkdir)
+         (script mkdir___mkdir_nonempty_dir2__f1.txt___0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir2__f1.txt___0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir2__f1.txt___0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir2__f1.txt___0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir2__f1.txt___0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase
+               mkdir___mkdir_nonempty_dir2__f1.txt___0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout
+                 exec_mkdir___mkdir_nonempty_dir2__f1.txt___0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir2__f1.txt___0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonempty_dir2__f1.txt_____0777-int.trace
+        ((suite mkdir)
+         (script mkdir___mkdir_nonempty_dir2__f1.txt_____0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir2__f1.txt_____0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir2__f1.txt_____0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir2__f1.txt_____0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir2__f1.txt_____0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase
+               mkdir___mkdir_nonempty_dir2__f1.txt_____0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout
+                 exec_mkdir___mkdir_nonempty_dir2__f1.txt_____0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir2__f1.txt_____0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonexist_dir__nonexist_3___0777-int.trace
+        ((suite mkdir)
+         (script mkdir___mkdir_nonexist_dir__nonexist_3___0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonexist_dir__nonexist_3___0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonexist_dir__nonexist_3___0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonexist_dir__nonexist_3___0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonexist_dir__nonexist_3___0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase
+               mkdir___mkdir_nonexist_dir__nonexist_3___0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout
+                 exec_mkdir___mkdir_nonexist_dir__nonexist_3___0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonexist_dir__nonexist_3___0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonempty_dir1__f1.txt___0777-int.trace
+        ((suite mkdir)
+         (script mkdir___mkdir_nonempty_dir1__f1.txt___0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__f1.txt___0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__f1.txt___0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__f1.txt___0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__f1.txt___0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase
+               mkdir___mkdir_nonempty_dir1__f1.txt___0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout
+                 exec_mkdir___mkdir_nonempty_dir1__f1.txt___0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir1__f1.txt___0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonempty_dir1__f1.txt__nonexist_5___0777-int.trace
+        ((suite mkdir)
+         (script
+          mkdir___mkdir_nonempty_dir1__f1.txt__nonexist_5___0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__f1.txt__nonexist_5___0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__f1.txt__nonexist_5___0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__f1.txt__nonexist_5___0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__f1.txt__nonexist_5___0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase
+               mkdir___mkdir_nonempty_dir1__f1.txt__nonexist_5___0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout
+                 exec_mkdir___mkdir_nonempty_dir1__f1.txt__nonexist_5___0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir1__f1.txt__nonexist_5___0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonexist_2___0777-int.trace
+        ((suite mkdir) (script mkdir___mkdir_nonexist_2___0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonexist_2___0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonexist_2___0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonexist_2___0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonexist_2___0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase mkdir___mkdir_nonexist_2___0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout exec_mkdir___mkdir_nonexist_2___0777-int.trace)
+                (stderr exec_mkdir___mkdir_nonexist_2___0777-int.trace.err))))))))))
+       (adhoc_mkdir_link_count-int.trace
+        ((suite mkdir) (script adhoc_mkdir_link_count-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout check_exec_adhoc_mkdir_link_count-int.trace.sexp)
+                    (stderr check_exec_adhoc_mkdir_link_count-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout check_exec_adhoc_mkdir_link_count-int.trace)
+                    (stderr check_exec_adhoc_mkdir_link_count-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase adhoc_mkdir_link_count-int.trace) (success Ok)
+              (output
+               ((stdout exec_adhoc_mkdir_link_count-int.trace)
+                (stderr exec_adhoc_mkdir_link_count-int.trace.err))))))))))
+       (mkdir___mkdir_nonempty_dir1__d2__sl_no_such_target__nonexist_6___0777-int.trace
+        ((suite mkdir)
+         (script
+          mkdir___mkdir_nonempty_dir1__d2__sl_no_such_target__nonexist_6___0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_no_such_target__nonexist_6___0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_no_such_target__nonexist_6___0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_no_such_target__nonexist_6___0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_no_such_target__nonexist_6___0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase
+               mkdir___mkdir_nonempty_dir1__d2__sl_no_such_target__nonexist_6___0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout
+                 exec_mkdir___mkdir_nonempty_dir1__d2__sl_no_such_target__nonexist_6___0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir1__d2__sl_no_such_target__nonexist_6___0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonempty_dir2__d2_____0777-int.trace
+        ((suite mkdir)
+         (script mkdir___mkdir_nonempty_dir2__d2_____0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir2__d2_____0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir2__d2_____0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir2__d2_____0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir2__d2_____0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase mkdir___mkdir_nonempty_dir2__d2_____0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout
+                 exec_mkdir___mkdir_nonempty_dir2__d2_____0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir2__d2_____0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_d2___0777-int.trace
+        ((suite mkdir)
+         (script
+          mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_d2___0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_d2___0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_d2___0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_d2___0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_d2___0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase
+               mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_d2___0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout
+                 exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_d2___0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_d2___0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonempty_dir1__d2___0777-int.trace
+        ((suite mkdir)
+         (script mkdir___mkdir_nonempty_dir1__d2___0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2___0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2___0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2___0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2___0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase mkdir___mkdir_nonempty_dir1__d2___0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout
+                 exec_mkdir___mkdir_nonempty_dir1__d2___0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir1__d2___0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonempty_dir2__d2___0777-int.trace
+        ((suite mkdir)
+         (script mkdir___mkdir_nonempty_dir2__d2___0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir2__d2___0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir2__d2___0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir2__d2___0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir2__d2___0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase mkdir___mkdir_nonempty_dir2__d2___0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout
+                 exec_mkdir___mkdir_nonempty_dir2__d2___0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir2__d2___0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonempty_dir2_____0777-int.trace
+        ((suite mkdir)
+         (script mkdir___mkdir_nonempty_dir2_____0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir2_____0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir2_____0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir2_____0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir2_____0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase mkdir___mkdir_nonempty_dir2_____0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout exec_mkdir___mkdir_nonempty_dir2_____0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir2_____0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonempty_dir1___0777-int.trace
+        ((suite mkdir) (script mkdir___mkdir_nonempty_dir1___0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1___0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1___0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1___0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1___0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase mkdir___mkdir_nonempty_dir1___0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout exec_mkdir___mkdir_nonempty_dir1___0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir1___0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonempty_dir2__d2__sl_f3.txt___0777-int.trace
+        ((suite mkdir)
+         (script mkdir___mkdir_nonempty_dir2__d2__sl_f3.txt___0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir2__d2__sl_f3.txt___0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir2__d2__sl_f3.txt___0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir2__d2__sl_f3.txt___0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir2__d2__sl_f3.txt___0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase
+               mkdir___mkdir_nonempty_dir2__d2__sl_f3.txt___0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout
+                 exec_mkdir___mkdir_nonempty_dir2__d2__sl_f3.txt___0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir2__d2__sl_f3.txt___0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_f1.txt___0777-int.trace
+        ((suite mkdir)
+         (script
+          mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_f1.txt___0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_f1.txt___0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_f1.txt___0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_f1.txt___0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_f1.txt___0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase
+               mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_f1.txt___0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout
+                 exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_f1.txt___0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_f1.txt___0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_d2_____0777-int.trace
+        ((suite mkdir)
+         (script
+          mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_d2_____0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_d2_____0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_d2_____0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_d2_____0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_d2_____0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase
+               mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_d2_____0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout
+                 exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_d2_____0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_d2_____0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonempty_dir1__f1.txt_____0777-int.trace
+        ((suite mkdir)
+         (script mkdir___mkdir_nonempty_dir1__f1.txt_____0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__f1.txt_____0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__f1.txt_____0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__f1.txt_____0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__f1.txt_____0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase
+               mkdir___mkdir_nonempty_dir1__f1.txt_____0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout
+                 exec_mkdir___mkdir_nonempty_dir1__f1.txt_____0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir1__f1.txt_____0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonempty_dir1__f1.txt__nonexist_5_____0777-int.trace
+        ((suite mkdir)
+         (script
+          mkdir___mkdir_nonempty_dir1__f1.txt__nonexist_5_____0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__f1.txt__nonexist_5_____0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__f1.txt__nonexist_5_____0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__f1.txt__nonexist_5_____0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__f1.txt__nonexist_5_____0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase
+               mkdir___mkdir_nonempty_dir1__f1.txt__nonexist_5_____0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout
+                 exec_mkdir___mkdir_nonempty_dir1__f1.txt__nonexist_5_____0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir1__f1.txt__nonexist_5_____0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_no_such_target___0777-int.trace
+        ((suite mkdir)
+         (script
+          mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_no_such_target___0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_no_such_target___0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_no_such_target___0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_no_such_target___0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_no_such_target___0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase
+               mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_no_such_target___0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout
+                 exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_no_such_target___0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_no_such_target___0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonempty_dir1__sl_f1.txt___0777-int.trace
+        ((suite mkdir)
+         (script mkdir___mkdir_nonempty_dir1__sl_f1.txt___0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__sl_f1.txt___0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__sl_f1.txt___0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__sl_f1.txt___0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__sl_f1.txt___0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase
+               mkdir___mkdir_nonempty_dir1__sl_f1.txt___0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout
+                 exec_mkdir___mkdir_nonempty_dir1__sl_f1.txt___0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir1__sl_f1.txt___0777-int.trace.err))))))))))
+       (mkdir___mkdir_empty_dir2_____0777-int.trace
+        ((suite mkdir) (script mkdir___mkdir_empty_dir2_____0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_empty_dir2_____0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_empty_dir2_____0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_empty_dir2_____0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_empty_dir2_____0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase mkdir___mkdir_empty_dir2_____0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout exec_mkdir___mkdir_empty_dir2_____0777-int.trace)
+                (stderr exec_mkdir___mkdir_empty_dir2_____0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_f1.txt_____0777-int.trace
+        ((suite mkdir)
+         (script
+          mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_f1.txt_____0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_f1.txt_____0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_f1.txt_____0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_f1.txt_____0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_f1.txt_____0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase
+               mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_f1.txt_____0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout
+                 exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_f1.txt_____0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir1__d2__sl_dotdot_f1.txt_____0777-int.trace.err))))))))))
+       (mkdir___mkdir_nonempty_dir2__f2.txt___0777-int.trace
+        ((suite mkdir)
+         (script mkdir___mkdir_nonempty_dir2__f2.txt___0777-int.trace)
+         (result
+          (Diff
+           ((diff_checks
+             ((((flavor Linux)
+                (fs_spec_version
+                 /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test))
+               ((diff_spec
+                 ((flavor Linux)
+                  (fs_spec_version
+                   /nix/store/fxisrpncjn4cxxwnq2lvilriqx63s9k9-fs_test)))
+                (diff_result
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir2__f2.txt___0777-int.trace.sexp)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir2__f2.txt___0777-int.trace.err)))))
+                (diff_human
+                 ((prev_phase ()) (success Ok)
+                  (output
+                   ((stdout
+                     check_exec_mkdir___mkdir_nonempty_dir2__f2.txt___0777-int.trace)
+                    (stderr
+                     check_exec_mkdir___mkdir_nonempty_dir2__f2.txt___0777-int.trace.err)))))))))
+            (diff_trace
+             ((prev_phase
+               mkdir___mkdir_nonempty_dir2__f2.txt___0777-int.trace)
+              (success Ok)
+              (output
+               ((stdout
+                 exec_mkdir___mkdir_nonempty_dir2__f2.txt___0777-int.trace)
+                (stderr
+                 exec_mkdir___mkdir_nonempty_dir2__f2.txt___0777-int.trace.err)))))))))))))))))
